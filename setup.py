@@ -1,24 +1,29 @@
 import os
 import sys
 
-from setuptools import setup, Extension, find_packages
+from setuptools import setup, find_packages
 
 install_requires=[
 ]
 
-#and PyQt5
-
-
-s = setup(
+setup(
     name='ThorlabsControl',
-    version='0.0.1',
-    #scripts=[],
+    version='0.1.0',
     packages=find_packages(),
-    author='Alienor Lahlou',
-    author_email='alienor.lahlou@espci.org',
-    description='Thorlab instrument control via Python',
-    long_description='',
-    url = 'TODO',
-    install_requires=install_requires,
+    install_requires=[
+        # Add your dependencies here
+    ],
+    author='Your Name',
+    author_email='your.email@example.com',
+    description='A package to control Thorlabs hardware',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    url='https://github.com/yourusername/ThorlabsControl',
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.6',
     include_package_data=True,
 )
