@@ -13,12 +13,12 @@ setup(
     install_requires=[
         # Add your dependencies here
     ],
-    author='Your Name',
-    author_email='your.email@example.com',
+    author='Aliénor Lahlou',
+    author_email='alienor.lahlou@sony.com",
     description='A package to control Thorlabs hardware',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/ThorlabsControl',
+    url='https://github.com/Alienor134/Thorlabs',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
